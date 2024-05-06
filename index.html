@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Palette Creator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Color Palette Creator</h1>
+    <div id="inputbox">
+    HUE
+
+    <input type="text" id="colorInput" placeholder="Pick a hue (0-360)" />
+    <button onclick="addColor()">Add</button></div>
+    <div id="hexbox">
+        <input type="color" id="hexInput" placeholder="pick a color" value="#80c4e9"/>
+        <button onclick="addHex('hexInput')">Add</button>
+    </div>
+    <div >
+        HEX 
+        <input type="text" id="hex" placeholder="Pick a hue e.g. #80c4e9"/>
+        <button onclick="addHex('hex')">Add</button>
+    </div>
+    <!-- <div id="palette"></div> -->
+
+    <script src="script.js"></script>
+</body>
+</html>
